@@ -1,0 +1,9 @@
+# 3 write a python program that calculate the factorial of given number
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n-1)
+n = int(input("enter a number"))
+result=factorial(n)
+print(result)

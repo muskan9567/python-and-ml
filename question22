@@ -1,0 +1,5 @@
+# Program to find the minimum and maximum values in a list
+numbers = list(map(int, input("Enter numbers separated by space: ").split()))
+min_value = min(numbers)
+max_value = max(numbers)
+print(f"The minimum value is {min_value} and the maximum value is {max_value}.")

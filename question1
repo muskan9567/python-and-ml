@@ -1,0 +1,5 @@
+#1 write a program that takes two number as input and print their sum
+a=int(input("enter one number"))
+b=int(input("enter another number"))
+sum=a+b
+print(sum)

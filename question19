@@ -1,0 +1,5 @@
+# Program to remove all punctuation from a string
+import string
+input_string = input("Enter a string: ")
+no_punctuation_string = input_string.translate(str.maketrans('', '', string.punctuation))
+print(f"String without punctuation: {no_punctuation_string}")

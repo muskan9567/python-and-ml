@@ -1,0 +1,4 @@
+# Program to convert a string to title case
+string = input("Enter a string: ")
+title_case_string = string.title()
+print(f"Title case string: {title_case_string}")

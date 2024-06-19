@@ -1,0 +1,5 @@
+
+#4 write a program that asks the user for their name and then prints a greeting message
+name=input("enter your name")
+print("hello",name,"how are you")
+print("nice to meet you dear")

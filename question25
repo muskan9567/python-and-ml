@@ -1,0 +1,13 @@
+# Program to copy content from one text file to another
+source_file = 'source.txt'
+destination_file = 'destination.txt'
+
+try:
+    with open(source_file, 'r') as src:
+        with open(destination_file, 'w') as dest:
+            for line in src:
+                dest.write(line)
+    print(f"Contents of {source_file} have been copied to {destination_file}.")
+except FileNotFoundError:
+    print(f"Error: {source_file} not found.")
+

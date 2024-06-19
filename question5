@@ -1,0 +1,5 @@
+#5 write a program that takes a string input form the user and writes it to a text file 
+name=input("enter your name")
+with open("user.txt","w") as f:
+    f.write(name)
+print("your name has been written to the file")

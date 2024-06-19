@@ -1,0 +1,7 @@
+# Program to read a CSV file and print its content
+import csv
+filename = 'data.csv'
+with open(filename, mode ='r') as file:
+    csvFile = csv.reader(file)
+    for lines in csvFile:
+        print(lines)

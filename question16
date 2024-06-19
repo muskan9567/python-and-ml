@@ -1,0 +1,6 @@
+# Program to count the frequency of each character in a string
+from collections import Counter
+string = input("Enter a string: ")
+frequency = Counter(string)
+print(f"Character frequency: {frequency}")
+
